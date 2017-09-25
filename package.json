@@ -1,0 +1,34 @@
+{
+  "name": "gcalcron",
+  "version": "0.0.0",
+  "description": "",
+  "bin": "index.js",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "cron": "^1.3.0",
+    "googleapis": "^21.3.0",
+    "minimist": "^1.2.0",
+    "prettycron": "https://github.com/azza-bazoo/prettycron.git#d0b633ee482d1d7e0fe9853578c72af541b815e3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.6.1"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "gcal",
+    "google",
+    "calendar",
+    "cron",
+    "Node.js",
+    "scheduled-tasks"
+  ],
+  "author": "Antonio Valverde",
+  "repository": "toniov/gcal-cli",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "license": "ISC"
+}
