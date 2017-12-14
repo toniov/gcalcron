@@ -175,7 +175,7 @@ const start = async (cronTime, outFile, errFile) => {
       const cronTime = argv._[1];
       const outFile = argv.out || argv.o;
       const errFile = argv.err || argv.e;
-      start(cronTime, outFile, errFile);
+      await start(cronTime, outFile, errFile);
       break;
     }
     case 'generateUrl': {
